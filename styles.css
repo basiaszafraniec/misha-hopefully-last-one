@@ -426,3 +426,55 @@ footer p {
 .coach-card-right p strong {
     font-weight: bold;
 }
+
+.events-page {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.events-page h1 {
+    margin-bottom: 10px;
+    font-size: 3em; 
+}
+
+.events {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.event-card {
+    background-color: #fff;
+    display: flex;
+    width: 80%;
+    height: 300px;
+    padding: 20px;
+    margin: 20px 0;
+}
+.event-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+}
+.event-content h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+.event-content p {
+    margin-bottom: 15px;
+}
+.event-content date {
+    font-size: 1.2em;
+}
+.event-card a {
+    align-self: center;
+    margin-left: auto;
+    padding: 10px 50px;
+    font-size: 1.2em;
+    border-radius: 50px;
+}
