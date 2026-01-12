@@ -88,7 +88,7 @@ nav {
     font-weight: normal;
 }
 
-.hero-top hr {
+hr {
     width: 200px;
     border: #F87B1B 2px solid;
 }
@@ -214,6 +214,7 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
 
 }
 
@@ -359,4 +360,69 @@ footer p {
 .reserve:hover {
     background-color: #D96A00;
     transition: 300ms;
+}
+
+/* contact */
+
+.contact-page {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-page h1 {
+    margin-bottom: 10px;
+    font-size: 3em;
+
+}
+
+.contact-page p {
+    margin: 10px 0;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #97B3EF;
+    margin: 20px 0;
+    border-radius: 10px;
+    width: 50%;
+}
+.coaches {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.coach-card{
+    background-color: #fff;
+    display: flex;
+    width: 80%;
+    height: 400px;
+    padding: 20px;
+    margin: 20px 0;;
+
+}
+.coach-card-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.coach-card-left h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.coach-card-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;;
+}
+.coach-card-right p strong {
+    font-weight: bold;
 }
